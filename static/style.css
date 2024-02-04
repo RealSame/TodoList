@@ -4,6 +4,7 @@
 }
 
 .judul {
+    justify-content: center;
     text-align: center;
 }
 
@@ -27,6 +28,7 @@ div{
 }
 
 .container {
+    width: 80%;
     display: block;
     border: 3px solid rgba(150, 150, 150, 0.527);
     border-radius: 10px;
@@ -96,6 +98,9 @@ input[type=image]:hover {
     border: 3px solid rgba(150, 150, 150, 0.527);
     border-radius: 10px;
     padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 80%;
     box-shadow: 7px 10px 5px 0px rgb(150, 150, 150);
 }
 
@@ -109,6 +114,7 @@ ul {
 li {
     bottom: 3px;
     position: relative;
-    left: -45px;
+    left: -30px;
     padding: 4px;
+    font-size: 20px;
 }
