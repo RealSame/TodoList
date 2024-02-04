@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
-    <!-- Style -->
-    <link rel="stylesheet" href="./static/style.css">
-    <!-- Script -->
-    <script src="main.js"></script>
-    <!-- Script JQuery -->
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <!-- Style -->
+  <link rel="stylesheet" href="./static/style.css">
+  <!-- Script -->
+  <script src="./static/main.js"></script>
+  <!-- Script JQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="judul">
-        <h2>TODO</h2>
-        <h2 class="second">LIST</h2>
-    </div>
-    <div class="container">
-        <label for="inp">Kegiatan</label>
-        <input id="inp" type="text" placeholder="Masukan Kegiatan!">
-        <input id="sbmt" type="submit" value="Submit">
-    </div>
-    <div class="content">
-        <ul id="ultask">
-            <li>bla bla</li>
-        </ul>
-        <input id="del" type="image" src="static/delete.png" value="">
-        <input id="don" type="image" src="static/Done.webp" value="" class="done">
-    </div>
+  <div class="judul">
+    <h2>TODO</h2>
+    <h2 class="second">LIST</h2>
+  </div>
+  <div class="container">
+    <label for="inp">Kegiatan</label>
+    <input id="inp" type="text" placeholder="Masukan Kegiatan!">
+    <input id="sbmt" type="submit" value="Submit">
+  </div>
+  <div class="content">
+    <ul id="ultask">
+      <!--li>
+        <div>
+          <input id="don" type="image" src="static/Done.webp" class="done input">
+          <span>bla bla</span>
+          <input id="del" type="image" src="static/delete.png" class='input right'>
+        </div>
+      </li-->
+    </ul>
+  </div>
 </body>
+
 </html>
