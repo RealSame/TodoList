@@ -73,11 +73,11 @@ input[type=image] {
     cursor: pointer;
     width: 25px;
     height: 25px;
-    float: right;
+    /*float: right;*/
     border: 2px solid black;
     border-radius: 5px;
     position: relative;
-    bottom: 50px;
+    /*bottom: 50px;*/
 }
 
 input[type=image].done {
@@ -117,4 +117,20 @@ li {
     left: -30px;
     padding: 4px;
     font-size: 20px;
+}
+
+li > div {
+    padding: 0.2rem;
+}
+
+.right {
+    float: right;
+}
+
+.input {
+    top: 0.5rem;
+}
+
+.note-done {
+    text-decoration: line-through;
 }
